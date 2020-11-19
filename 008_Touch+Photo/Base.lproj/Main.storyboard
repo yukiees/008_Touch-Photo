@@ -57,6 +57,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.79607843140000001" blue="0.79215686269999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="戻る"/>
+                                <connections>
+                                    <action selector="back:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SPM-iv-acT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uW8-dA-b2N">
                                 <rect key="frame" x="164" y="758" width="95" height="89"/>
@@ -68,6 +71,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.79607843140000001" blue="0.79215686269999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="画像"/>
+                                <connections>
+                                    <action selector="selectBackground:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ueA-7b-Goc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k8g-xH-5xh">
                                 <rect key="frame" x="295" y="758" width="95" height="89"/>
@@ -79,6 +85,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.79607843140000001" blue="0.79215686269999996" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="保存"/>
+                                <connections>
+                                    <action selector="save" destination="BYZ-38-t0r" eventType="touchUpInside" id="XsG-lc-Zcx"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -90,7 +99,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="93.75"/>
+            <point key="canvasLocation" x="232" y="-8"/>
         </scene>
     </scenes>
     <resources>
